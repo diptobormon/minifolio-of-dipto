@@ -9,20 +9,16 @@ const socialData = [
         link: "https://github.com/diptobormon"
     },
     {
-        name: "twitter",
-        icon: "<i class='bx bxl-twitter'></i>",
-        link: "https://twitter.com/robiuzzaman4"
+        name: "instagram",
+        icon: "<i class='bx bxl-instagram-alt'></i>",
+        link: "https://www.instagram.com/dipto.bormon/"
     },
     {
         name: "linkedin",
         icon: "<i class='bx bxl-linkedin-square'></i>",
         link: "https://www.linkedin.com/in/dipto-bormon-b59a331a6/"
     },
-    // {
-    //     name: "instagram",
-    //     icon: "<i class='bx bxl-instagram-alt'></i>",
-    //     link: "https://www.instagram.com/"
-    // }
+
 ];
 
 // Generate Social Card
