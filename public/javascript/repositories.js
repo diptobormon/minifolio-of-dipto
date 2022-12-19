@@ -6,7 +6,7 @@ const repoData = [
     {
         id: "A1",
         title: "minifolio",
-        link: "https://github.com/robiuzzaman4/minifolio", // Your Repositories Link
+        link: "https://diptobormon.github.io/minifolio-of-dipto/", // Your Repositories Link
         description: "Minifolio - Developer Portfolio",
         language: "JAVASCRIPT",
         circleClr: "js-color", // From ./src/input.css
@@ -15,31 +15,32 @@ const repoData = [
     },
     {
         id: "A2",
-        title: "qoals-clone",
-        link: "https://github.com/robiuzzaman4/qoals-clone", // Your Repositories Link
-        description: "Qoals-clone is a copyed version of 'qoals.com'. I clone it's with Tailwindcss.",
-        language: "HTML",
-        circleClr: "html-color",
+        title: "donate-today",
+        link: "https://diptobormon.github.io/donate-today/", // Your Repositories Link
+        description: "Donate-today is a simple project for donation collection",
+        language: "CSS",
+        circleClr: "css-color",
         star: 1,
         fork: 0
     },
     {
         id: "A3",
-        title: "glyphsy",
-        link: "https://github.com/robiuzzaman4/glyphsy", // Your Repositories Link
-        description: "Glyphsy - A bundle of glyphs in text formet. incluid of copy to clipbord",
-        language: "CSS",
+        title: "e-commerce-bootstrap",
+        link: "https://diptobormon.github.io/e-commerce-bootstrap/#", // Your Repositories Link
+        description: "E-commerce-bootstrap is a project like Amazon",
+        language: "Bootstrap",
         circleClr: "css-color",
         star: 1,
         fork: 0
     },
     {
         id: "A4",
-        title: "temcal",
-        link: "https://github.com/robiuzzaman4/temcal", // Your Repositories Link
-        description: "'temcal' is a Temperature Converter which made with JavaScript.",
-        language: "CSS",
-        circleClr: "css-color",
+        title: "responsive",
+        link: "https://diptobormon.github.io/responsive-assignment2/", // Your Repositories Link
+        description: "Responsive is a copa football 2019 website which is also responsive for mobile and tab. ",
+        language: "HTML",
+        circleClr: "html-color",
+
         star: 1,
         fork: 0
     }
@@ -48,7 +49,7 @@ const repoData = [
 // Generate Repository Card
 const generateRepo = () => {
     return (repoSection.innerHTML = repoData.map((e) => {
-        let {title, description, link, language, circleClr, star, fork} = e; 
+        let { title, description, link, language, circleClr, star, fork } = e;
         return `
         <div class="h-40 md:h-36 w-auto py-4 border-b border-zinc-200 dark:border-zinc-800 flex flex-col items-start justify-between gap-2">
             <div class="flex flex-col items-start gap-2">
@@ -75,7 +76,7 @@ const generateRepo = () => {
                 </div>
             </div>
         </div>`
-    }).join(""));   
+    }).join(""));
 };
 
 // Invoke Function
